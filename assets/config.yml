@@ -59,7 +59,7 @@ services:
       - name: "Plex"
         logo: "assets/tools/reddit.png"
         subtitle: "Local video streaming!"
-        tag: "service"
+        tag: "video"
         tagstyle: "is-info"
         url: "http://server.lia:32400"
         target: "_blank"
