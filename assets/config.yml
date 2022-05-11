@@ -85,8 +85,8 @@ services:
     items:
       - name: "Ubiquiti UDM"
         logo: "assets/tools/ubiquiti.jpg"
-        subtitle: "Ubiquiti Dream Machine web UI!"
-        tag: "Ubiquiti"
+        subtitle: "UniFi OS web UI!"
+        tag: "coomer-hub"
         tagstyle: "is-info"
         url: "https://192.168.10.1/"
         target: "_blank"
