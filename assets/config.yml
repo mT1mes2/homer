@@ -65,7 +65,7 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Plex"
-        logo: "assets/tools/reddit.png"
+        logo: "assets/tools/plex.jpg"
         subtitle: "Local video streaming!"
         tag: "video"
         tagstyle: "is-info"
@@ -73,8 +73,8 @@ services:
         target: "_blank"
 
       - name: "Pihole"
-        logo: "assets/tools/reddit.png"
-        subtitle: "Pihole DNS Service!}"
+        logo: "assets/tools/pihole.svg"
+        subtitle: "Pihole DNS Service!"
         tag: "DNS"
         tagstyle: "is-info"
         url: "http://192.168.192.15/admin"
