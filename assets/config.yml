@@ -46,7 +46,7 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Main Server"
-        logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
+        logo: "assets/tools/server.png" # Change github.png to the name of your own custom icon!
         subtitle: "Main TrueNAS Scale server!"
         tag: "server"
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
@@ -54,7 +54,7 @@ services:
         target: "_blank"
 
       - name: "Lab Server"
-        logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
+        logo: "assets/tools/server.png" # Change github.png to the name of your own custom icon!
         subtitle: "Second TrueNAS Scale server for testing!"
         tag: "server"
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
