@@ -77,5 +77,5 @@ services:
         subtitle: "Pihole DNS Service!"
         tag: "DNS"
         tagstyle: "is-info"
-        url: "http://192.168.192.15/admin"
+        url: "http://192.168.10.15/admin"
         target: "_blank"
