@@ -79,3 +79,14 @@ services:
         tagstyle: "is-info"
         url: "http://192.168.10.15/admin"
         target: "_blank"
+
+  - name: "// Hardware"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Ubiquiti UDM"
+        logo: "assets/tools/ubiquiti.jpg"
+        subtitle: "Ubiquiti Dream Machine web UI!"
+        tag: "Ubiquiti"
+        tagstyle: "is-info"
+        url: "https://192.168.10.1/"
+        target: "_blank"
