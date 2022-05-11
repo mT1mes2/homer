@@ -53,6 +53,14 @@ services:
         url: "http://server.lia"
         target: "_blank"
 
+      - name: "Lab Server"
+        logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
+        subtitle: "Second TrueNAS Scale server for testing!"
+        tag: "server"
+        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        url: "http://lab.lia"
+        target: "_blank"
+
   - name: "// Services"
     icon: "fas fa-cloud"
     items:
@@ -62,4 +70,12 @@ services:
         tag: "video"
         tagstyle: "is-info"
         url: "http://server.lia:32400"
+        target: "_blank"
+
+      - name: "Pihole"
+        logo: "assets/tools/reddit.png"
+        subtitle: "Pihole DNS Service!}"
+        tag: "DNS"
+        tagstyle: "is-info"
+        url: "http://192.168.192.15/admin"
         target: "_blank"
