@@ -83,7 +83,7 @@ services:
   - name: "// Hardware"
     icon: "fas fa-cloud"
     items:
-      - name: "Ubiquiti UDM"
+      - name: "Ubiquiti UDM-Pro"
         logo: "assets/tools/ubiquiti.jpg"
         subtitle: "UniFi OS web UI!"
         tag: "coomer-hub"
