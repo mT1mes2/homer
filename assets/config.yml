@@ -74,7 +74,7 @@ services:
 
       - name: "Pihole"
         logo: "assets/tools/pihole.svg"
-        subtitle: "Pihole DNS Service!"
+        subtitle: "Pihole DNS!"
         tag: "DNS"
         tagstyle: "is-info"
         url: "http://192.168.10.15/admin"
