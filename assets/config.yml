@@ -1,6 +1,6 @@
 ---
 title: "Homer Theme"
-subtitle: "Walkx"
+subtitle: "T I M E"
 logo: "logo.png"
 
 header: false
@@ -87,6 +87,6 @@ services:
         logo: "assets/tools/ubiquiti.jpg"
         subtitle: "UniFi OS web UI!"
         tag: "coomer-hub"
-        tagstyle: "is-succes"
+        tagstyle: "is-link"
         url: "https://192.168.10.1/"
         target: "_blank"
