@@ -87,6 +87,6 @@ services:
         logo: "assets/tools/ubiquiti.jpg"
         subtitle: "UniFi OS web UI!"
         tag: "coomer-hub"
-        tagstyle: "is-info"
+        tagstyle: "is-succes"
         url: "https://192.168.10.1/"
         target: "_blank"
