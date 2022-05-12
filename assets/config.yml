@@ -50,7 +50,7 @@ services:
         subtitle: "Main TrueNAS Scale server!"
         tag: "server"
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
-        url: "http://server.lia"
+        url: "http://192.168.10.248"
         target: "_blank"
 
       - name: "Lab Server"
@@ -58,7 +58,7 @@ services:
         subtitle: "Second TrueNAS Scale server for testing!"
         tag: "server"
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
-        url: "http://lab.lia"
+        url: "http://192.168.10.249"
         target: "_blank"
 
   - name: "// Services"
@@ -69,7 +69,7 @@ services:
         subtitle: "Local video streaming!"
         tag: "video"
         tagstyle: "is-info"
-        url: "http://server.lia:32400"
+        url: "http://192.168.10.:32400"
         target: "_blank"
 
       - name: "Pihole"
