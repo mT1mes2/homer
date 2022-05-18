@@ -72,22 +72,6 @@ services:
         url: "http://192.168.10.248:32400"
         target: "_blank"
 
-      - name: "Radarr"
-        logo: "assets/tools/radarr.png"
-        subtitle: "Movie downloader!"
-        tag: "download"
-        tagstyle: "is-info"
-        url: "http://192.168.10.20:7878"
-        target: "_blank"
-
-        name: "Prowlarr"
-        logo: "assets/tools/prowlerr.png"
-        subtitle: "Index manager!"
-        tag: "index"
-        tagstyle: "is-info"
-        url: "http://192.168.10.20:9696"
-        target: "_blank"
-        
       - name: "Pihole"
         logo: "assets/tools/pihole.svg"
         subtitle: "Pihole DNS!"
