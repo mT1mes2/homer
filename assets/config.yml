@@ -79,7 +79,7 @@ services:
         tagstyle: "is-info"
         url: "http://192.168.10.20:7878"
         target: "_blank"
-
+        
         name: "Sonarr"
         logo: "assets/tools/sonarr.svg"
         subtitle: "Series downloader!"
