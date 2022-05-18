@@ -82,7 +82,7 @@ services:
 
       - name: "Radarr"
         logo: "assets/tools/radarr.png"
-        subtitle: "Movia downloading!"
+        subtitle: "Movie downloading!"
         tag: "download"
         tagstyle: "is-info"
         url: "http://192.168.10.20:7878"
