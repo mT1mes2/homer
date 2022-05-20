@@ -5,7 +5,7 @@ services:
     image: b4bz/homer:latest
     container_name: homer
     volumes:
-      - /home/time/docker/sonarr:/config
+      - /home/time/homer/assets:/www/assets
     ports:
       - 8080:8080
     restart: unless-stopped
