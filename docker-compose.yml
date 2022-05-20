@@ -7,5 +7,5 @@ services:
     volumes:
       - /home/time/homer/assets:/www/assets
     ports:
-      - 8080:8080
+      - 80:80
     restart: unless-stopped
