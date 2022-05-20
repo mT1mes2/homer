@@ -46,18 +46,18 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Main Server"
-        logo: "assets/tools/server.png" # Change github.png to the name of your own custom icon!
+        logo: "assets/tools/server.png"
         subtitle: "Main TrueNAS Scale server!"
         tag: "server"
-        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        tagstyle: "is-primary"
         url: "http://192.168.10.248"
         target: "_blank"
 
       - name: "Lab Server"
-        logo: "assets/tools/server.png" # Change github.png to the name of your own custom icon!
+        logo: "assets/tools/server.png"
         subtitle: "Second TrueNAS Scale server for testing!"
         tag: "server"
-        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        tagstyle: "is-primary"
         url: "http://192.168.10.249"
         target: "_blank"
 
@@ -71,6 +71,30 @@ services:
         tagstyle: "is-info"
         url: "http://192.168.10.248:32400"
         target: "_blank"
+
+      - name: "Sonarr"
+        logo: "assets/tools/sonarr.svg"
+        subtitle: "Series downloading!"
+        tag: "download"
+        tagstyle: "is-info"
+        url: "http://192.168.10.231:8989"
+        target: "_blank"
+
+      - name: "Radarr"
+        logo: "assets/tools/radarr.png"
+        subtitle: "Movie downloading!"
+        tag: "download"
+        tagstyle: "is-info"
+        url: "http://192.168.10.231:7878"
+        target: "_blank"
+
+      - name: "Prowlarr"
+        logo: "assets/tools/prowlerr.png"
+        subtitle: "Index manager!"
+        tag: "index"
+        tagstyle: "is-info"
+        url: "http://192.168.10.20:9696"
+        target: "_blank"  
 
       - name: "Pihole"
         logo: "assets/tools/pihole.svg"
